@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-image: url(images/s2.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+    height: 450px;
+    margin-top: 90px;
+    background-color: #FBFBFB;
+    display: flex;
+}
+h5{
+    margin-top: 12px;
+}
+label{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+input{
+    border: none;
+    width: 50%;
+    border-bottom: 1px solid lightgray;
+    background-color: #FBFBFB;
+    position: relative;
+    top: -10px;
+    padding: 5px;
+}
+input:focus {
+    outline: none;
+    border-bottom: 1px solid red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#password:focus{
+    color: BLACK;
+    font-size: 16px;
+    font-weight: bold;
+}
+#btn{
+    border: none;
+    background-color: PINK;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 120px;
+    margin-top: 15px;
+}
+p{
+    font-size: small;
+}
+.line{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.icon:hover, #btn:hover{
+    box-shadow: 0 0 25px rgba(8, 8, 8, 0.2);
+    background-color: rgb(182, 49, 93);
+}
